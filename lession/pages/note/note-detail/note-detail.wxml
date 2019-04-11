@@ -1,0 +1,12 @@
+<view class="datail-container">
+    <view>
+        <label>标题</label>
+        <input placeholder="请输入标题" class="title" bindinput="val1"/>
+    </view>
+    <view>
+        <label>内容</label>
+        <textarea placeholder="请输入内容" class="content"  bindinput="val2"/>
+    </view>
+
+    <button class="add" type="primary" bindtap="addEvent">添加</button>
+</view>

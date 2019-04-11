@@ -1,0 +1,12 @@
+
+<view style="margin-top:50rpx;width:300rpx">
+<progress percent="40" active show-info />
+</view>
+<!--switch只有两个属性 true false-->
+<switch type="switch" checked="{{true}}" />
+
+
+<view wx:for="{{arrs}}">
+<icon type="{{item}}" size="50" color="red"></icon>
+
+</view>

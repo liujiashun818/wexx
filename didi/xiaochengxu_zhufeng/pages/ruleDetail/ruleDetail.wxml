@@ -1,0 +1,2 @@
+<view class='crl-dot' animation='{{animationData}}'></view>
+<view class='crl-path'></view>

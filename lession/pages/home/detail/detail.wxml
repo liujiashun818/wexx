@@ -1,0 +1,9 @@
+<import src="../list-tmpl/list-tmpl.wxml"/>
+<template is="list" data="{{...item}}">
+</template>
+
+<!--audio video-->
+<view bindtap="playMusic">
+<image src="/images/music-start.png" wx:if="{{flag}}"></image>
+<image src="/images/music-stop.png" wx:else></image>
+</view>

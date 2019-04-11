@@ -1,0 +1,84 @@
+.rule-swiper-box {
+    height: 90%;
+}
+.rule-item {
+    text-align: center;
+}
+.rule-banner {
+    position: relative;
+    height: 35%;
+}
+.banner-back {
+    height: 54%;
+    background-color:#f2f2f3;
+}
+.car-type {
+    padding-bottom:10px;
+}
+.car-type-text {
+    font-size:12px;
+    color:#888888;
+    margin:0 15px;
+}
+.rule-slide-image {
+    position: absolute;
+    left:50%;
+    top:0%;
+    width:100%;
+    height:83.24%;
+    margin-left: -49%;
+}
+.line-icon {
+    width: 20%;
+    height:4px;
+    border-top:1px solid #e4e4e4;
+}
+.rule-text {
+    font-size: 14px;
+    color:#666666;
+}
+.bold-text {
+    color:#2f2f2f;
+    font-weight:bolder;
+    vertical-align: -1px;
+}
+.detail-box {
+    position: absolute;
+    bottom:5%;
+    width: 100%;
+
+}
+.to-detail {
+    font-size:12px;
+    color:#888888;
+    text-align: center;
+    margin:0 auto;
+    width: 80px;
+}
+.detail-icon {
+    width: 14px;
+    height: 14px;
+    background: url('http://static.udache.com/gulfstream/webapp/imgs/i-help.png') no-repeat;
+    background-size: 14px 14px;
+    vertical-align: -2px;
+    margin-right: 3px;
+}
+.plus-sign1 {
+    width: 1px;
+    height:9px;
+    background-color: #e4e4e4;
+    vertical-align: 7px;
+}
+.plus-sign2 {
+    width: 9px;
+    height:4px;
+    border-top: 1px solid  #e4e4e4;
+    margin-left: -5px;
+    vertical-align: 7px;
+}
+.rule-text-icon {
+    height: 9px;
+}
+.rule-text {
+    padding: 4%;
+}

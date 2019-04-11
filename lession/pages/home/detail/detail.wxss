@@ -1,0 +1,6 @@
+@import "../list-tmpl/list-tmpl.wxss";
+
+image{
+    width: 200rpx;
+    height:200rpx;
+}

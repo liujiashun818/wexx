@@ -1,0 +1,15 @@
+.note-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px sandybrown solid;
+    line-height: 60rpx;
+    height: 120rpx;
+    margin: 20rpx;
+}
+
+.btn-list{
+    display: flex;
+    position: absolute;
+    width: 750rpx;
+    bottom: 150rpx;
+}

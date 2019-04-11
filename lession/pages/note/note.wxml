@@ -1,0 +1,15 @@
+<scroll-view scroll-y="{{true}}" style="height:400rpx;" bindscrolltolower="lazyLoad">
+<block wx:for="{{notes}}">
+<view class="note-container">
+    <text class="note-title">{{item.title}}</text>
+    <text class="note-content">{{item.content}}</text>
+</view>
+</block>
+
+<view wx:if="{{flag}}">正在加载</view>
+</scroll-view>
+<view class="btn-list">
+    <button type="warn" size="mini" bindtap="clearEvent">
+    清除</button>
+    <button type="primary" size="mini" bindtap="bindToDetail">添加</button>
+</view>

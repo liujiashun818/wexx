@@ -1,0 +1,6 @@
+@import "list-tmpl/list-tmpl.wxss";
+swiper image{
+    width: 100%
+}
+
+

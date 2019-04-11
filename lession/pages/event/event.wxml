@@ -1,0 +1,4 @@
+<view bindtap="outer">
+外面
+    <view catchtap="inner">内部</view>
+</view>

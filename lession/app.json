@@ -1,0 +1,37 @@
+{
+    "pages": [
+      "pages/home/home",
+      "pages/ui/ui",
+      "pages/jsonp/jsonp",
+      "pages/request/request",
+      "pages/animation/animation",
+       "pages/picker/picker",
+        "pages/note/note",
+        "pages/note/note-detail/note-detail",
+      
+      "pages/home/detail/detail",
+      "pages/event/event",
+      "pages/weclome/welcome"
+    ],
+    "window": {
+      "navigationBarBackgroundColor": "#b0b0b0",
+      "navigationBarTextStyle": "green",
+      "navigationBarTitleText": "welcome"
+    },
+    "tabBar": {
+      "borderStyle": "white",
+      "color": "green",
+      "selectedColor": "#000000",
+      "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/home1.png",
+        "selectedIconPath": "images/home.png"
+      },{
+        "pagePath": "pages/note/note",
+        "text": "记事本",
+        "iconPath": "images/edit.png",
+        "selectedIconPath": "images/edit1.png"
+      }]
+    }
+}

@@ -1,0 +1,26 @@
+<swiper class='rule-swiper-box' indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{swiperArrays}}" wx:key="unique" wx:for-item="item">
+    <swiper-item class='rule-item'>
+      <view class='rule-banner'>
+        <view class='banner-back'></view>
+        <image src="{{item.imgUrl}}" class="rule-slide-image" width='100%' height=''/>
+      </view>
+      <view class='car-type'>
+        <icon type="String" class='line-icon'/>
+        <text class='car-type-text'>{{item.carTyle}}</text>
+        <icon type="String" class='line-icon'/>
+      </view>
+      <view class='rule-text'><text class='bold-text'>{{item.startFee}}</text>元起步费</view>
+      <view class='rule-text-icon'>
+        <icon type="String" class='plus-sign1'/>
+        <icon type="String" class='plus-sign2'/>
+      </view>
+      <view class='rule-text'><text class='bold-text'>{{item.feeKm}}</text>元/公里</view>
+      <view class='rule-text-icon'>
+        <icon type="String" class='plus-sign1'/>
+        <icon type="String" class='plus-sign2'/>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>

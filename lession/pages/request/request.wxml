@@ -1,0 +1,9 @@
+<input type="text" class="search" bindinput="bindVal" />
+<button bindtap="search">
+<block  wx:for="{{express}}">
+    <view class="content">
+    {{item.context}}  {{item.time}}</view>
+</block>
+<icon type="search"></icon>点击查询内容</button>
+
+<!--通过快递号查询订单-->

@@ -1,0 +1,5 @@
+<view class="container">
+    <image src="/images/user1.jpg" class="avatar" bindtap="bindToHome"></image>
+    <text class="title">ove</text>
+    <text class="content">hello world</text>
+</view>

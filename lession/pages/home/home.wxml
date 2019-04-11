@@ -1,0 +1,14 @@
+<import src="list-tmpl/list-tmpl.wxml"/>
+<swiper autoplay="{{true}}" interval="2000" indicator-dots="{{true}}" circular="{{true}}" vertical="{{true}}" style="height:400rpx">
+<!--wx:key 静态遍历不需要-->
+    <swiper-item wx:for="{{imgs}}" wx:for-item="num"> 
+        <image src="{{num}}"></image>
+    </swiper-item>
+</swiper>
+<block wx:for="{{lists}}">
+    <view bindtap="bindToDetail" data-uId="{{item.id}}">
+    <template is="list" data="{{...item}}" ></template>
+    </view>
+</block>
+
+

@@ -1,0 +1,7 @@
+<input  type="text" class="content" bindinput="val" placeholder="请输入搜索内容"/>
+<scroll-view scroll-y="{{true}}" style="height:500rpx">
+    <block wx:for="{{lists}}">
+     <view> {{item}}</view>
+    </block>
+</scroll-view>
+<button type="primary" bindtap="search">搜素</button>

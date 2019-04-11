@@ -1,0 +1,14 @@
+.datail-container label{
+    font-size: 40rpx;
+    line-height: 60rpx;
+    display: block;
+}
+.title,.content{
+    border: 1px solid red;
+}
+.datail-container{
+    padding: 20rpx;
+}
+.add{
+    margin-top: 40rpx;
+}

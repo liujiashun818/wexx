@@ -1,0 +1,8 @@
+page{
+    font-size: 20rpx;
+}
+
+.content{
+    font-size: 30rpx;
+    line-height: 30rpx
+}

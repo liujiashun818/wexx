@@ -1,0 +1,24 @@
+/*列表信息*/
+.list-container{
+    display: flex;
+    flex-direction: row;
+    margin: 10rpx;
+    border-top:1px solid   #0e0e0e;
+    box-shadow:-1px 1px 2px #0e0e0e,1px 1px 2px #0e0e0e;
+    height:150rpx;
+}
+.list-container image{
+    width: 60rpx;
+    height: 60rpx;
+    border-radius: 50%;
+    overflow: hidden
+}
+
+.list-left,.list-right{
+    display: flex;
+    flex-direction: column;
+}
+.list-left{
+    width: 300rpx;
+    align-items: center
+}
